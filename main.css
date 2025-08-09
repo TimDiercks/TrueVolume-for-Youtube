@@ -1,0 +1,34 @@
+:root {
+    --bg: #0E212D;
+    --text: #E6E8E9;
+    --slate-gray: #7C868D;
+    --charcoal-2: #303E46;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    width: 250px;
+}
+
+body {
+    background: var(--bg);
+    color: var(--text);
+    border-radius: 20px;
+
+    padding: 1rem;
+    font-size: 14px;
+}
+
+h1 {
+    margin-bottom: 1rem;
+    border-bottom: 2px solid var(--text);
+    font-size: 24px;
+}
+
+.github-logo {
+    height: 24px;
+}
